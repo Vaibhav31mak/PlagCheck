@@ -5,7 +5,7 @@ It supports both **C++** and **Python** files and uses a token-based comparison 
 
 ## 🚀 Features
 - Token-based similarity checking
-- Supports C++ and Python code
+- Supports C++ code
 - Cross-platform (Windows + Linux)
 - Build as standalone executable or Python module
 
