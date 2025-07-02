@@ -2,7 +2,6 @@
 #include <fstream>
 #include <sstream>
 #include "LangCpp.h"
-#include "LangPython.h"
 #include "Tokenizer.h"
 #include "Text.h"
 #include "Comparer.h"
@@ -37,7 +36,7 @@ void readText(
 
 int main() {
     
-    const char* langname = "Python3";
+    const char* langname = "C++";
     std::vector<Token> vec = {Token::None};
     std::vector<Text> texts;
 
@@ -45,9 +44,6 @@ int main() {
 
     if (strcmp(langname, "C++") == 0) {
         lang = LangCpp::getInstance();
-    }
-    else if (strcmp(langname, "Python3") == 0) {
-        lang = LangPython::getInstance();
     }
     else {
         printf("Unknown language '%s'.", langname);
