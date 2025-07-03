@@ -1,9 +1,9 @@
-#ifndef Head_HonestyChecker
-#define Head_HonestyChecker
+#ifndef Head_PlagCheck
+#define Head_PlagCheck
 
 #include <cstddef>
 
-namespace HonestyChecker {
+namespace PlagCheck {
 	extern size_t MinRunSize;
 	
 	class Tokenizer;
